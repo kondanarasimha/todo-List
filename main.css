@@ -1,24 +1,63 @@
 .main-container {
-  margin-left: 40%;
+  margin-left: 20%;
   margin-top: 10%;
-  width: 350px;
+  width: 500px;
 }
 
-.main-container input {
-  margin-right: 5px;
-  padding: 10px;
-  width: 200px;
+.input-todo {
+  padding: 10px 10px;
+  padding-right: 40px;
+}
+
+.todo-date {
+  padding:9px;
 }
 
 .add-button {
-  padding: 10px;
+  background-color: white;
+  border-color: black;
+  border: solid 1px;
+  padding: 10px 10px;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: rgb(4, 228, 4);
+  color: white;
+}
+
+.add-button:active {
+  opacity: 0.10;
 }
 
 .todos-container {
-  width: 250px;
+  width: 350px;
   justify-content: space-between;
 }
 
-.todos-container p {
-  display: inline-block
+.todos-container h4,
+.todos-container h3 {
+  display: inline-block;
+  margin-right: 10px;
 }
+
+.todos-container button {
+  background-color: white;
+  border-color: black;
+  border: solid 1px;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.todos-container button:hover {
+  background-color: rgb(228, 4, 4);
+  color: white;
+}
+
+.todos-container button:active {
+  opacity: 0.10;
+}
+
+
