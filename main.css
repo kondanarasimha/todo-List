@@ -1,6 +1,7 @@
 .main-container {
   margin-left: 40%;
   margin-top: 10%;
+  width: 350px;
 }
 
 .main-container input {
@@ -9,7 +10,15 @@
   width: 200px;
 }
 
-.main-container button {
-  height: 40px;
-  width: 60px;
+.add-button {
+  padding: 10px;
+}
+
+.todos-container {
+  width: 250px;
+  justify-content: space-between;
+}
+
+.todos-container p {
+  display: inline-block
 }
