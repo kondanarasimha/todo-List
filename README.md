@@ -1,1 +1,1 @@
-[CLICK HERE TO SEE TODO APPLICATION](https://github.com/kondanarasimha/todo-List.git)
+[CLICK HERE TO SEE TODO APPLICATION](https://kondanarasimha.github.io/todo-List/)
